@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    // Carta 1
+    // variaveis carta 1
     char estado1;
     char codigo1[5];
     char nomeCidade1[50];
@@ -41,7 +41,7 @@ int main() {
 
     printf("Número de Pontos Turísticos:\n");
     scanf("%d", &pontos_turisticos1);
-
+// 
     printf("Carta 2\n");
 
     printf("Estado (A-H):\n");
@@ -66,7 +66,7 @@ int main() {
     scanf("%d", &pontos_turisticos2);
 
     // Informações cadastradas
-    printf("Compare as Cartas\n");
+    printf("\nSuas Cartas\n");
 
     printf("Carta 1:\n");
     printf("Estado: %c\n", estado1);
